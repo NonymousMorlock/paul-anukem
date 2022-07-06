@@ -1,0 +1,153 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-svg {
+    display: none;
+  }
+
+  .my-footer {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .intro-p {
+    text-align: center;
+  }
+
+  hr {
+    margin: auto;
+    border-top: 1px white;
+    border-style: dotted;
+    border-radius: 20px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 5px;
+    width: 100px;
+    /* background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+    color: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%); */
+  }
+
+  p{
+    text-align: center;
+    color: #6c757d;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    position: relative;
+    left: 80px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(27, 156, 240), rgb(244, 115, 117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .intro-p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  background: rgb(0, 0, 0);
+  color: rgb(242, 245, 247);
+  cursor: default;
+}
+
+h1 {
+  font-weight: 700;
+  background: -webkit-linear-gradient(rgb(27, 156, 240), rgb(244, 115, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background: -webkit-linear-gradient(rgb(27, 156, 240), rgb(244, 115, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: none;
+  background: -webkit-linear-gradient(rgb(27, 156, 240), rgb(244, 115, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.intro-p {
+  line-height: 2;
+  color: #6c757d;
+}
+
+.lang {
+  color: #b17e97;
+}
+
+figcaption {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+hr {
+  margin-left: 0;
+  border-top: 1px solid white;
+  border-radius: 20px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 5px;
+  width: 100px;
+  background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+  color: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+}
+
+/* ***************NAVIGATION BAR**************** */
+/* ***************INTRO SECTION**************** */
+/* ***************PROJECT SECTION**************** */
+.sigmart {
+  width: 80%;
+}
+
+/* svg{
+   width: 70%
+ } */
+/* ***************TECH SECTION**************** */
+/* ***************ABOUT SECTION**************** */
