@@ -61,6 +61,10 @@
     font-size: 1.5rem;
     color: #6c757d;
   }
+
+  .my-pgh{
+    width: 50%;
+  }
 }
 
 body {
@@ -145,6 +149,8 @@ hr {
 .sigmart {
   width: 80%;
 }
+
+
 
 /* svg{
    width: 70%
